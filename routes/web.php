@@ -17,6 +17,6 @@ $router->get('/', function () use ($router) {
     return $router->app->version();
 });
 
-$router->group(['prefix' => 'api'], function () use ($router) {
-    $router->get('/email', "EmailController@index");
+$router->get('key', function () {
+    return Illuminate\Support\Str::random(32);
 });
