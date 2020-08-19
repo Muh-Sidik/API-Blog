@@ -1,5 +1,3 @@
-<h3>{{ $nama }}</h3>
-<p>{{ $website }}</p>
+<h1>Test Verif</h1>
 
-<p>Coba aja emailnya</p>
-<p>love you wkwkkwk</p>
+<a href="">{{ $token }}</a>

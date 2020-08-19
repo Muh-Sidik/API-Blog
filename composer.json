@@ -8,6 +8,7 @@
         "php": "^7.2.5",
         "chuckrincon/lumen-config-discover": "^1.0",
         "illuminate/mail": "^7.25",
+        "illuminate/notifications": "^7.25",
         "laravel/lumen-framework": "^7.0",
         "tymon/jwt-auth": "dev-develop"
     },

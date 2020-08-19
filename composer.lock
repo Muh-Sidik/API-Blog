@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "df729b5843468f607a685362dd8b8f78",
+    "content-hash": "31c084e6e93cf02c8257ba31ef89c641",
     "packages": [
         {
             "name": "brick/math",
@@ -1172,6 +1172,59 @@
             "description": "The Illuminate Mail package.",
             "homepage": "https://laravel.com",
             "time": "2020-08-11T13:33:47+00:00"
+        },
+        {
+            "name": "illuminate/notifications",
+            "version": "v7.25.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/notifications.git",
+                "reference": "1270b6dab926d6dd2166bf97ecbcc9f4d0c7c9b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/notifications/zipball/1270b6dab926d6dd2166bf97ecbcc9f4d0c7c9b8",
+                "reference": "1270b6dab926d6dd2166bf97ecbcc9f4d0c7c9b8",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/broadcasting": "^7.0",
+                "illuminate/bus": "^7.0",
+                "illuminate/container": "^7.0",
+                "illuminate/contracts": "^7.0",
+                "illuminate/filesystem": "^7.0",
+                "illuminate/mail": "^7.0",
+                "illuminate/queue": "^7.0",
+                "illuminate/support": "^7.0",
+                "php": "^7.2.5"
+            },
+            "suggest": {
+                "illuminate/database": "Required to use the database transport (^7.0)."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "7.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\Notifications\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "The Illuminate Notifications package.",
+            "homepage": "https://laravel.com",
+            "time": "2020-08-11T13:23:45+00:00"
         },
         {
             "name": "illuminate/pagination",
