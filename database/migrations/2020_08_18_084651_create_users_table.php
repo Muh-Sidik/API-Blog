@@ -17,9 +17,10 @@ class CreateUsersTable extends Migration
             $table->id();
             $table->string("email");
             $table->string("username");
+            $table->string("name");
             $table->string("password");
             $table->string("no_hp");
-            $table->integer('no_detail_category');
+            $table->timestamp('email_verification_at')->nullable();
             $table->timestamps();
         });
     }

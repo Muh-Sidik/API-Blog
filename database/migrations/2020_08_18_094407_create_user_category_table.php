@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateRegisterEmailTable extends Migration
+class CreateUserCategoryTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,10 @@ class CreateRegisterEmailTable extends Migration
      */
     public function up()
     {
-        Schema::create('register_email', function (Blueprint $table) {
+        Schema::create('user_category', function (Blueprint $table) {
             $table->id();
-            $table->string('email');
-            $table->string('token');
+            $table->integer('id_user');
+            $table->integer('id_category');
             $table->timestamps();
         });
     }

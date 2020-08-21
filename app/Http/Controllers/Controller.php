@@ -24,4 +24,11 @@ class Controller extends BaseController
 
         return true;
     }
+
+    protected function responseWithToken($token)
+    {
+        return response()->json([
+            'token' => $token
+        ]);
+    }
 }
